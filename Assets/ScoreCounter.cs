@@ -22,7 +22,6 @@ public class ScoreCounter : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("Collision occurred!");
         if (collision.gameObject.tag == "LargeStarTag") 
         {
             score += 10;
